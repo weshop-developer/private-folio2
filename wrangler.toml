@@ -1,0 +1,9 @@
+name = "private-folio2"
+compatibility_date = "2024-04-01"
+main = ".vercel/output/static/_worker.js"
+assets = { directory = ".vercel/output/static" }
+
+[[d1_databases]]
+binding = "DB"
+database_name = "portfolio-db"
+database_id = "3d54b4e2-e80f-48d2-af84-6c055084f1fe" # Will be filled by user during deployment
